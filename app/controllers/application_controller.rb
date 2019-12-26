@@ -3,4 +3,6 @@ class ApplicationController < ActionController::Base
     render html: "hello,rails!"
 
   end
+
+  include SessionsHelper
 end
