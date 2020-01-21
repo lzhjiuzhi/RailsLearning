@@ -9,6 +9,7 @@ class UsersController < ApplicationController
   def show
     @user = User.find(params[:id])
       # debugger
+    @microposts = @user.microposts.paginate(page: params[:page])
   end
 
   def create
@@ -39,7 +40,7 @@ class UsersController < ApplicationController
     @users = User.paginate(page: params[:page])
   end
 
-  def destory
+  def destroy
     User.find(params[:id]).destroy
     flash[:success] = "User deleted"
     redirect_to users_url

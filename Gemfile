@@ -12,6 +12,8 @@ gem 'bootstrap-sass', '3.4.1'
 # bootstrap
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
+gem 'image_processing', '1.9.3'
+gem 'mini_magick', '4.9.5'
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker', '~> 4.0'
@@ -26,7 +28,7 @@ gem 'bcrypt', '3.1.13'
 gem 'faker', '2.1.2'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
-
+gem 'active_storage_validations', '0.8.2'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
