@@ -10,7 +10,7 @@ gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server
 gem 'bootstrap-sass', '3.4.1'
 # bootstrap
-gem 'puma', '~> 4.1'
+gem 'puma', '~> 4.3'
 # Use SCSS for stylesheets
 gem 'image_processing', '1.9.3'
 gem 'mini_magick', '4.9.5'
