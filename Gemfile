@@ -12,7 +12,7 @@ gem 'bootstrap-sass', '3.4.1'
 # bootstrap
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
-gem 'image_processing', '1.9.3'
+gem 'image_processing', '1.12.2'
 gem 'mini_magick', '4.9.5'
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
